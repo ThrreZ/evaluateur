@@ -16,7 +16,7 @@ public class EvaluateurNiveau {
 	private static boolean estDansBorne( int valeur , int min , int max ) {
 		return ( valeur >= min && valeur <= max );
 	}
-
+	//Test commm
 	public static String evaluerNiveau(String cours, String examen) throws ExceptionValeurNonEntiere, ExceptionValeurHorsBorne {
 		// TODO Auto-generated method stub
 		if ( ! estEntier( cours )) {
